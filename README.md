@@ -1,4 +1,4 @@
-#SEIYUUS IDOLS
+# Seiyuus-Idols
 This a page of Seiyuus and Idols
 
 Initially appeared on

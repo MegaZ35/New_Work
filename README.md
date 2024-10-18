@@ -1,6 +1,5 @@
 #SEIYUUS IDOLS
-
-Esto es una Página sobre Seiyuus y Idols
+This a page of Seiyuus and Idols
 
 Initially appeared on
 [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.

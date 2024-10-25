@@ -1,3 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif 
+    
+}
+
+.menu {
+    list-style: none;
+    padding: 0%;
+    background: #008080;
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(231, 204, 129);
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #000080;
+
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen {
+    width: 500px;
+    height: 500px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
 h1 {
     background-color: aqua;
 }
@@ -6,12 +57,31 @@ h1 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(158, 45, 45);     
+    background-color: rgb(158, 45, 45);
 }
 
+.container {
+    display: flex;
+}
 
+.KanaHanazawa {
+    margin-right: 20px;
+}
+
+.ShukaSaito {
+    margin-right: 20px;
+}
+
+.FukuharaHaruka {
+    margin-right: 20px;
+}
+
+.AkariKito {
+    
+    margin-right: 20px;
+}
 
 .gallery-item {
     width: 90%;
@@ -22,42 +92,22 @@ h1 {
     height: 100%;
 }
 
+img:hover {
+    border-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.gallery-item {
+    width: 90%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .gallery-item {
-        width: 30%;
-    }
-}
-
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .gallery-container {
-        justify-content: flex-start;
-    }
     
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
     .gallery-item {
-        width: 20%;
-        margin: 1em;
+        width: 40%;
     }
-
-
-
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
-
-
-

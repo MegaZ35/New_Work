@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/form2.css">
+</head>
+
+<body>
+  <header class="header-container">
+    <div>
+      <i class="fa-solid fa-Seiyuus"></i><span id="header-title"> Seiyuus</span>
+    </div>
+
+
+    <div id="header-hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="item">
+      <!-- DECOMMENT: STEP 1: Create a Form -->
+      <form action="data.html" id="personal-data-form">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name">
+        <span id="form-name">* campo requerido</span>
+
+        <label for="surname">Apellidos:</label>
+        <input type="text" name="surname" id="surname">
+        <span id="form-surname">* campo requerido</span>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="text" name="email" id="email">
+        <span id="form-email">* campo requerido</span>
+        <span id="form-email-invalid">* correo no valido</span>
+
+
+        <div class="form-submit">
+          <button type="submit">Enviar</button>
+
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/361128a480.js" crossorigin="anonymous"></script>
+  <script src="js/form4.js"></script>
+  <!-- DECOMMENT: STEP 2: Create a JavaScript file in js/validate.js -->
+  <script src="js/form3.js"></script>
+</body>
+
+</html>

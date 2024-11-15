@@ -28,7 +28,7 @@ body {
 }
 
 .menu li a:hover {
-    background: #5be97a;
+    background: #000080;
 
 }
 
@@ -65,74 +65,28 @@ h1 {
     background-color: rgb(158, 45, 45);
 }
 
-.index-container {
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-
-
-.seiyuus-discs-container {
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.seiyuus-discs-container div {
-    width: 90%;
-}
-
-.seiyuus-discs-container div img {
-    width: 100%;
-    height: 100%;
-}
 
 .gallery-item {
-    width: 90%;
+    width:80%
 }
-
-.gallery-item img {
-    width: 100%;
-    height: 100%;
-}
-
-img:hover {
-    border-color: yellow;
-    border-width: 3px;
-    border-style: solid;
-}
-
-
-.gallery-item {
-    width: 90%;
-}
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .seiyuus-discs-container div {
-        width: 30%;
-    }
+@media only screen and (min-width: 600px) {}
+.contanier {
+    width: 20;
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .seiyuus-discs-container div {
-        width: 22%;
-    }
+@media only screen and (min-width: 992px) {}
+.container {
+    width: 30;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

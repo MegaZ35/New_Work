@@ -6,32 +6,6 @@ body {
     text-align: center;
 }
 
-.menu {
-    list-style: none;
-    padding: 0%;
-    background: #008080;
-    width: 70%;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: rgb(231, 204, 129);
-    padding: 20px;
-    display: block;
-}
-
-.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-.menu li a:hover {
-    background: #5be97a;
-
-}
-
 .gallery-item {
     display: flex;
     justify-content: center;
@@ -50,27 +24,6 @@ body {
 
 body {
     background-color: blanchedalmond;
-}
-
-h1 {
-    background-color: aqua;
-}
-
-.gallery-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(158, 45, 45);
-}
-
-.index-container {
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
 }
 
@@ -137,3 +90,28 @@ img:hover {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+.menu {
+    list-style: none;
+    padding: 0%;
+    background: #008080;
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(231, 204, 129);
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #000080;
+}

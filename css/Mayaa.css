@@ -1,0 +1,22 @@
+body
+
+.centrado {
+    text-align: center;
+
+}
+.img-container {
+    width: 100%;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;    
+  }
+
+body {
+    background-color: blanchedalmond;
+
+}
+
+

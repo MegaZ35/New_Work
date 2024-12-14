@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.centrado {
+    text-align: center;
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagen {
+    width: 500px;
+    height: 500px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: blanchedalmond;
+
+}
+
+
+.seiyuus-discs-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.seiyuus-discs-container div {
+    width: 90%;
+}
+
+.seiyuus-discs-container div img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-item {
+    width: 90%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+.gallery-item {
+    width: 90%;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .seiyuus-discs-container div {
+        width: 30%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .seiyuus-discs-container div {
+        width: 22%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+.menu {
+    list-style: none;
+    padding: 0%;
+    background: #008080;
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(231, 204, 129);
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #000080;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body {
+    text-transform: capitalize;
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 80px 0;
+}
+
+.footer-row {   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4::before {
+    font-size: 20px;
+    color:white;
+    margin-bottom: 25px;
+    
+}
+
+
